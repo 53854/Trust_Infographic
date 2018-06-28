@@ -8,7 +8,6 @@ var currentTopic = "OtherPeople_1";
 
 function getUserCountry(action) {
 
-    $.getJSON('http://ip-api.com/json?callback=?', function (data) {
         var location = JSON.parse(JSON.stringify(data));
 
         userCountry = getCompareCountry(location.country);

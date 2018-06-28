@@ -4,7 +4,7 @@ function sortData() {
 
     var sortedData = {};
 
-    $.getJSON("TempJSON/Countries.json", function (data) {
+    $.getJSON("TempJSON/Countries.Json", function (data) {
 
         $.each(data.value, function (index, country) {
 
@@ -20,7 +20,7 @@ function getPeriods() {
 
     var periods = [];
 
-    $.getJSON("TempJSON//Periods.json", function (data) {
+    $.getJSON("TempJSON/Periods.Json", function (data) {
 
         $.each(data.value, function (index, period) {
 
@@ -40,7 +40,7 @@ function getTopics() {
 
     var topics = {};
 
-    $.getJSON("TempJSON/DataProperties.json", function (data) {
+    $.getJSON("TempJSON/DataProperties.Json", function (data) {
 
         $.each(data.value, function (index, topic) {
 
@@ -89,7 +89,7 @@ function getTopicScores(topic) {
 
 function fillData(_callback2) {
 
-    $.getJSON("TempJSON/DataProperties.json", function (data) {
+    $.getJSON("TempJSON/DataProperties.Json", function (data) {
 
         $.each(data.value, function (index, topic) {
 
@@ -109,7 +109,7 @@ function getCountryIndex() {
 
     var countryIndex = {};
 
-    $.getJSON("TempJSON/Countries.json", function (data) {
+    $.getJSON("TempJSON/Countries.Json", function (data) {
 
         $.each(data.value, function (index, country) {
 
@@ -126,7 +126,7 @@ function geTopicIndex() {
 
     var topicIndex = {};
 
-    $.getJSON("TempJSON/DataProperties.json", function (data) {
+    $.getJSON("TempJSON/DataProperties.Json", function (data) {
 
         $.each(data.value, function (index, topic) {
 

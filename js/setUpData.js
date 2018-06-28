@@ -20,7 +20,7 @@ function getPeriods() {
 
     var periods = [];
 
-    $.getJSON("TempJSON//Periods", function (data) {
+    $.getJSON("TempJSON//Periods.json", function (data) {
 
         $.each(data.value, function (index, period) {
 

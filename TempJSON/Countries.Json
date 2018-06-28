@@ -1,0 +1,67 @@
+{
+    "odata.metadata":"http://opendata.cbs.nl/ODataApi/OData/80518ENG/$metadata#Cbs.OData.WebAPI.Countries","value":[
+      {
+        "Key":"L008552","Title":"Belgium","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008567","Title":"Bulgaria","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008587","Title":"Cyprus","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008588","Title":"Denmark","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008592","Title":"Germany","Description":"Federal Republic of Germany, German Democratic Republic, Germany (old), Saarland.","CategoryGroupID":7
+      },{
+        "Key":"L008598","Title":"Estonia","Description":"Independent State from 1918-1940, and part of the Soviet Union after the Second World War until 1991. Became independent again after the division of the Soviet Union.\r\n\r\n\r\n\r\nAs this country has only been distinguished in the registers of Statistics Netherlands during its independence (1918-1940 and since 1991), Statistics Netherlands only counts persons born in these periods as belonging to this country of birth.\r\n\r\n\r\n\r\nThis country is also counted in the number of the (former) Soviet Union.","CategoryGroupID":7
+      },{
+        "Key":"L008604","Title":"Finland","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008605","Title":"France","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008615","Title":"Greece","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008627","Title":"Hungary","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008629","Title":"Ireland","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008630","Title":"Iceland","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008635","Title":"Israel","Description":"Israel, Palestine.","CategoryGroupID":8
+      },{
+        "Key":"L008636","Title":"Italy","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008653","Title":"Kosovo","Description":"New country created by separation from Serbia in 2008. \r\n\r\n\r\n\r\nAs this country is only distinguished separately in the registers of Statistics Netherlands since the division, Statistics Netherlands only counts persons born after the division as belonging to this country of birth.\r\n\r\n\r\n\r\nThis country has also been counted in the number of (former) Yugoslavia.","CategoryGroupID":7
+      },{
+        "Key":"L008654","Title":"Croatia","Description":"New country created by the division of Yugoslavia in 1991/\"92. \r\n\r\n\r\n\r\nAs this country has only been distinguished separately in the registers of Statistics Netherlands since the division, Statistics Netherlands only counts persons born after the division as belonging to this country of birth.\r\n\r\n\r\n\r\nThis country is also counted in the number of (former) Yugoslavia.","CategoryGroupID":7
+      },{
+        "Key":"L008662","Title":"Lithuania","Description":"Independent State from 1918-1940, and part of the Soviet Union after the\r\n\r\nSecond World War until 1991. Became independent again after the division\r\n\r\nof the Soviet Union.\r\n\r\n.\r\n\r\nAs this country has only been distinguished in the registers of Statistics\r\n\r\nNetherlands during its independence (1918-1940 and since 1991), Statistics Netherlands only counts persons born in these periods as belonging to this country of birth.\r\n\r\n.\r\n\r\nThis country is also counted in the number of the (former) Soviet Union.","CategoryGroupID":7
+      },{
+        "Key":"L008691","Title":"The Netherlands","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008704","Title":"Norway","Description":"Norway, Spitsbergen, Svalbard.","CategoryGroupID":7
+      },{
+        "Key":"L008706","Title":"Ukraine","Description":"New country created by the division of the Soviet Union in 1991. \r\n\r\n\r\n\r\nAs this country has only been distinguished separately in the registers of Statistics Netherlands since the division, Statistics Netherlands only counts persons born after the division as belonging to this country of birth.\r\n\r\n\r\n\r\nThis country is also counted in the number of the (former) Soviet Union.","CategoryGroupID":7
+      },{
+        "Key":"L008709","Title":"Austria","Description":"Austria, Austria-Hungary.","CategoryGroupID":7
+      },{
+        "Key":"L008718","Title":"Poland","Description":"Poland and Danzig.","CategoryGroupID":7
+      },{
+        "Key":"L008719","Title":"Portugal","Description":"Portugal, Azores, Madeira Islands.","CategoryGroupID":7
+      },{
+        "Key":"L008724","Title":"Russian Federation","Description":"New country created by the division of the Soviet Union in 1991. Not to be confused with the old Russia, which covers another territory.\r\n\r\n\r\n\r\nAs this country has only been distinguished separately in the registers of Statistics Netherlands since the division, Statistics Netherlands only counts persons born after the division as belonging to this country of birth.\r\n\r\n\r\n\r\nThis country is also counted in the number of the (former) Soviet Union.","CategoryGroupID":8
+      },{
+        "Key":"L008744","Title":"Slovenia","Description":"New country created by the division of Yugoslavia in 1991. \r\n\r\n\r\n\r\nAs this country has only been distinguished separately in the registers of Statistics Netherlands since the division, Statistics Netherlands only counts persons born after the division as belonging to this country of birth.\r\n\r\n\r\n\r\nThis country is also counted in the number of former Yugoslavia.","CategoryGroupID":7
+      },{
+        "Key":"L008745","Title":"Slovakia","Description":"New country created by the division of Czechoslovakia in 1993. \r\n\r\n\r\n\r\nAs this country has only been distinguished separately in the registers of Statistics Netherlands since the division, Statistics Netherlands only counts persons born after the division as belonging to this country of birth.\r\n\r\n\r\n\r\nThis country is also counted in the number of (former) Czechoslovakia.","CategoryGroupID":7
+      },{
+        "Key":"L008749","Title":"Spain","Description":"Spain, Canary Islands, Spanish Northern Africa.","CategoryGroupID":7
+      },{
+        "Key":"L008764","Title":"Czech Republic","Description":"New country created by the division of Czechoslovakia in 1993. \r\n\r\n\r\n\r\nAs this country has only been distinguished separately in the registers of Statistics Netherlands since the division, Statistics Netherlands only counts persons born after the division as belonging to this country of birth.\r\n\r\n\r\n\r\nThis country is also counted in the number of (former) Czechoslovakia.","CategoryGroupID":7
+      },{
+        "Key":"L008776","Title":"United Kingdom","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008790","Title":"Sweden","Description":"","CategoryGroupID":7
+      },{
+        "Key":"L008791","Title":"Switzerland","Description":"","CategoryGroupID":7
+      }
+    ]
+  }

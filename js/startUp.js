@@ -7,7 +7,7 @@ var loaded = false;
 
 $(function () {
 
-    getData("TempJSON/TypedDataSet.json", function() {
+    getData("TempJSON/TypedDataSet.Json", function() {
         fillData(function() {
             doneloading();
             //getUserCountry(false);

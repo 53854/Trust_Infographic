@@ -1,0 +1,23 @@
+{
+    "odata.metadata":"http://opendata.cbs.nl/ODataApi/OData/80518ENG/$metadata#Cbs.OData.WebAPI.CategoryGroups","value":[
+      {
+        "ID":0,"DimensionKey":"PersonalCharacteristics","Title":"Personal characteristics by group","Description":"","ParentID":null
+      },{
+        "ID":1,"DimensionKey":"PersonalCharacteristics","Title":"Total","Description":"","ParentID":0
+      },{
+        "ID":2,"DimensionKey":"PersonalCharacteristics","Title":"Gender","Description":null,"ParentID":0
+      },{
+        "ID":3,"DimensionKey":"PersonalCharacteristics","Title":"Age","Description":null,"ParentID":0
+      },{
+        "ID":4,"DimensionKey":"PersonalCharacteristics","Title":"Marial status","Description":null,"ParentID":0
+      },{
+        "ID":5,"DimensionKey":"PersonalCharacteristics","Title":"Level of education","Description":null,"ParentID":0
+      },{
+        "ID":6,"DimensionKey":"Countries","Title":"Countries by continent","Description":"","ParentID":null
+      },{
+        "ID":7,"DimensionKey":"Countries","Title":"Europe","Description":"","ParentID":6
+      },{
+        "ID":8,"DimensionKey":"Countries","Title":"Asia","Description":"","ParentID":6
+      }
+    ]
+  }

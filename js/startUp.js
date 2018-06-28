@@ -7,7 +7,7 @@ var loaded = false;
 
 $(function () {
 
-    getData("http://opendata.cbs.nl/ODataApi/odata/80518ENG/TypedDataSet", function() {
+    getData("TempJSON/TypedDataSet.json", function() {
         fillData(function() {
             doneloading();
             //getUserCountry(false);

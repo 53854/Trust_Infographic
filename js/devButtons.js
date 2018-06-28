@@ -56,25 +56,25 @@ function toggleDevStuff(){
 
 
 function getDataInfo(){
-    $.getJSON("https://opendata.cbs.nl/ODataApi/odata/80518ENG/DataProperties", function (data) {
+    $.getJSON("TempJSON/DataProperties.Json", function (data) {
         console.log(data.value)
     });
 }
 
 function getCountriesInfo(){
-    $.getJSON("https://opendata.cbs.nl/ODataApi/odata/80518ENG/Countries", function (data) {
+    $.getJSON("TempJSON/Countries", function (data) {
         console.log(data.value)
     });
 }
 
 function getCharacteristicsInfo(){
-    $.getJSON("https://opendata.cbs.nl/ODataApi/odata/80518ENG/PersonalCharacteristics", function (data) {
+    $.getJSON("TempJSON/PersonalCharacteristics", function (data) {
         console.log(data.value)
     });
 }
 
 function getCategoryInfo(){
-    $.getJSON("https://opendata.cbs.nl/ODataApi/odata/80518ENG/CategoryGroups", function (data) {
+    $.getJSON("TempJSON/CategoryGroups", function (data) {
         console.log(data.value)
     });
 }

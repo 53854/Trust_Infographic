@@ -1,0 +1,39 @@
+{
+    "odata.metadata":"http://opendata.cbs.nl/ODataApi/OData/80518ENG/$metadata#Cbs.OData.WebAPI.PersonalCharacteristics","value":[
+      {
+        "Key":"T009002","Title":"Total","Description":"","CategoryGroupID":1
+      },{
+        "Key":"3000   ","Title":"Sex: men","Description":"","CategoryGroupID":2
+      },{
+        "Key":"4000   ","Title":"Sex: women","Description":"","CategoryGroupID":2
+      },{
+        "Key":"53050  ","Title":"Age: 15 to 25 years","Description":"","CategoryGroupID":3
+      },{
+        "Key":"53500  ","Title":"Age: 25 to 35 years","Description":"","CategoryGroupID":3
+      },{
+        "Key":"53700  ","Title":"Age: 35 to 45 years","Description":"","CategoryGroupID":3
+      },{
+        "Key":"53800  ","Title":"Age: 45 to 55 years","Description":"","CategoryGroupID":3
+      },{
+        "Key":"53900  ","Title":"Age: 55 to 65 years","Description":"","CategoryGroupID":3
+      },{
+        "Key":"53925  ","Title":"Age: 65 to 75 years","Description":"","CategoryGroupID":3
+      },{
+        "Key":"21600  ","Title":"Age: 75 years or older","Description":"","CategoryGroupID":3
+      },{
+        "Key":"1020   ","Title":"Marital status: married/partnership","Description":"","CategoryGroupID":4
+      },{
+        "Key":"1080   ","Title":"Marital status: divorced","Description":"","CategoryGroupID":4
+      },{
+        "Key":"1010   ","Title":"Marital status: unmarried","Description":"","CategoryGroupID":4
+      },{
+        "Key":"1050   ","Title":"Marital status: widowed","Description":"","CategoryGroupID":4
+      },{
+        "Key":"2018700","Title":"Education level: low","Description":"The highest completed level of education is primary education (old style)","CategoryGroupID":5
+      },{
+        "Key":"2018740","Title":"Education level: secondary","Description":"The highest completed level of education is secondary education","CategoryGroupID":5
+      },{
+        "Key":"2018790","Title":"Education level: high","Description":"The highest completed level of education is higher education","CategoryGroupID":5
+      }
+    ]
+  }

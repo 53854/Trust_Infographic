@@ -1,0 +1,47 @@
+{
+    "odata.metadata":"http://opendata.cbs.nl/ODataApi/OData/80518ENG/$metadata#Cbs.OData.WebAPI.DataProperties","value":[
+      {
+        "odata.type":"Cbs.OData.Dimension","ID":0,"Position":0,"ParentID":null,"Type":"Dimension","Key":"PersonalCharacteristics","Title":"Personal characteristics","Description":""
+      },{
+        "odata.type":"Cbs.OData.Dimension","ID":1,"Position":1,"ParentID":null,"Type":"Dimension","Key":"Countries","Title":"Countries","Description":""
+      },{
+        "odata.type":"Cbs.OData.TimeDimension","ID":2,"Position":2,"ParentID":null,"Type":"TimeDimension","Key":"Periods","Title":"Periods","Description":"","ReleasePolicy":true
+      },{
+        "odata.type":"Cbs.OData.TopicGroup","ID":3,"Position":null,"ParentID":null,"Type":"TopicGroup","Key":"","Title":"Evaluation of trust in","Description":"Trust in other people and in a number of political and organisational institutions in terms of a mark from 0 to 10, where 0 equals no trust at all and 10 equals complete trust."
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":4,"Position":3,"ParentID":3,"Type":"Topic","Key":"OtherPeople_1","Title":"Other people","Description":"Figures show the average score in answer to the question: \u2018Generally speaking, would you say that most people can be trusted, or that you can\u2019t be too careful in dealing with people?\u2019 0 means you can\u2019t be too careful, and 10 means that most people can be trusted.\r\nSource: ESS\r\n","Datatype":"Float","Unit":"score","Decimals":1,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":5,"Position":4,"ParentID":3,"Type":"Topic","Key":"LegalSystem_2","Title":"Legal system","Description":"Figures show the average score in answer to the question: \u2018Can you give a score from 0-10 for how much you personally trust the legal system?\u2019  0 means you do not trust the legal system at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Float","Unit":"score","Decimals":1,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":6,"Position":5,"ParentID":3,"Type":"Topic","Key":"Police_3","Title":"Police","Description":"Figures show the average score in answer to the question: \u2018Can you give a score from 0-10 for how much you personally trust the police?\u2019  0 means you do not trust the police at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Float","Unit":"score","Decimals":1,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":7,"Position":6,"ParentID":3,"Type":"Topic","Key":"Politicians_4","Title":"Politicians ","Description":"Figures show the average score in answer to the question: \u2018Can you give a score from 0-10 for how much you personally trust politicians?\u2019  0 means you do not trust politicians at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Float","Unit":"score","Decimals":1,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":8,"Position":7,"ParentID":3,"Type":"Topic","Key":"Parliament_5","Title":"Parliament","Description":"Figures show the average score in answer to the question: \u2018Can you give a score from 0-10 for how much you personally trust national parliament?\u2019  0 means you do not trust national parliament at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Float","Unit":"score","Decimals":1,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":9,"Position":8,"ParentID":3,"Type":"Topic","Key":"PoliticalParties_6","Title":"Political parties","Description":"Figures show the average score in answer to the question: \u2018Can you give a score from 0-10 for how much you personally trust political parties?\u2019  0 means you do not trust political parties at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Float","Unit":"score","Decimals":1,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":10,"Position":9,"ParentID":3,"Type":"Topic","Key":"EuropeanParliament_7","Title":"European Parliament","Description":"Figures show the average score in answer to the question: \u2018Can you give a score from 0-10 for how much you personally trust the European Parliament?\u2019  0 means you do not trust the European Parliament at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Float","Unit":"score","Decimals":1,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":11,"Position":10,"ParentID":3,"Type":"Topic","Key":"UnitedNations_8","Title":"United Nations","Description":"Figures show the average score in answer to the question: \u2018Can you give a score from 0-10 for how much you personally trust the United Nations?\u2019  0 means you do not trust the United Nations at all, and 10 means you have complete trust.\r\nSource: ESS\r\n\r\n","Datatype":"Float","Unit":"score","Decimals":1,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.TopicGroup","ID":12,"Position":null,"ParentID":null,"Type":"TopicGroup","Key":"","Title":"Percentage of people with trust in","Description":"The percentage of people assigning a score of 6 or higher in answer to the questions about trust in other people and a number of political and organisational institutions, where 0 means no trust at all and 10 means complete trust."
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":13,"Position":11,"ParentID":12,"Type":"Topic","Key":"OtherPeople_9","Title":"Other people","Description":"Figures show the percentage of people assigning a score of 6 or higher in answer to the question: \u2018Generally speaking, would you say that most people can be trusted, or that you can\u2019t be too careful in dealing with people?\u2019  0 means you can\u2019t be too careful and 10 means that most people can be trusted.\r\nSource: ESS\r\n","Datatype":"Integer","Unit":"%","Decimals":0,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":14,"Position":12,"ParentID":12,"Type":"Topic","Key":"LegalSystem_10","Title":"Legal system","Description":"Figures show the percentage of people assigning a score of 6 or higher in answer to the question: \u2018How much do you personally trust the legal system?\u2019  0 means you do not trust the legal system at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Integer","Unit":"%","Decimals":0,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":15,"Position":13,"ParentID":12,"Type":"Topic","Key":"Police_11","Title":"Police","Description":"Figures show the percentage of people assigning a score of 6 or higher in answer to the  question: \u2018How much do you personally trust the police?\u2019  0 means you do not trust the police at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Integer","Unit":"%","Decimals":0,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":16,"Position":14,"ParentID":12,"Type":"Topic","Key":"Politicians_12","Title":"Politicians","Description":"Figures show the percentage of people assigning a score of 6 or higher in answer to the question: \u2018How much do you personally trust politicians?\u2019  0 means you do not trust politicians at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Integer","Unit":"%","Decimals":0,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":17,"Position":15,"ParentID":12,"Type":"Topic","Key":"Parliament_13","Title":"Parliament ","Description":"Figures show the percentage of people assigning a score of 6 or higher in answer to the question: \u2018How much do you personally trust the national parliament?\u2019  0 means you do not trust the national parliament at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Integer","Unit":"%","Decimals":0,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":18,"Position":16,"ParentID":12,"Type":"Topic","Key":"PoliticalParties_14","Title":"Political parties","Description":"Figures show the percentage of people assigning a score of 6 or higher in answer to the question: \u2018How much do you personally trust political parties?\u2019  0 means you do not trust political parties at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Integer","Unit":"%","Decimals":0,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":19,"Position":17,"ParentID":12,"Type":"Topic","Key":"EuropeanParliament_15","Title":"European Parliament","Description":"Figures show the percentage of people assigning a score of 6 or higher in answer to the question: \u2018How much do you personally trust the European Parliament?\u2019  0 means you do not trust an institution at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Integer","Unit":"%","Decimals":0,"Default":"Impossible"
+      },{
+        "odata.type":"Cbs.OData.Topic","ID":20,"Position":18,"ParentID":12,"Type":"Topic","Key":"UnitedNations_16","Title":"United Nations","Description":"Figures show the percentage of people assigning a score of 6 or higher in answer to the question: \u2018How much do you personally trust the United Nations?\u2019  0 means you do not trust the United Nations at all, and 10 means you have complete trust.\r\nSource: ESS\r\n","Datatype":"Integer","Unit":"%","Decimals":0,"Default":"Impossible"
+      }
+    ]
+  }

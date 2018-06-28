@@ -4,7 +4,7 @@ function sortData() {
 
     var sortedData = {};
 
-    $.getJSON("http://opendata.cbs.nl/ODataApi/odata/80518ENG/Countries", function (data) {
+    $.getJSON("TempJSON/Countries.json", function (data) {
 
         $.each(data.value, function (index, country) {
 
@@ -20,7 +20,7 @@ function getPeriods() {
 
     var periods = [];
 
-    $.getJSON("http://opendata.cbs.nl/ODataApi/odata/80518ENG/Periods", function (data) {
+    $.getJSON("TempJSON//Periods", function (data) {
 
         $.each(data.value, function (index, period) {
 
@@ -40,7 +40,7 @@ function getTopics() {
 
     var topics = {};
 
-    $.getJSON("https://opendata.cbs.nl/ODataApi/odata/80518ENG/DataProperties", function (data) {
+    $.getJSON("TempJSON/DataProperties.json", function (data) {
 
         $.each(data.value, function (index, topic) {
 
@@ -89,7 +89,7 @@ function getTopicScores(topic) {
 
 function fillData(_callback2) {
 
-    $.getJSON("https://opendata.cbs.nl/ODataApi/odata/80518ENG/DataProperties", function (data) {
+    $.getJSON("TempJSON/DataProperties.json", function (data) {
 
         $.each(data.value, function (index, topic) {
 
@@ -109,7 +109,7 @@ function getCountryIndex() {
 
     var countryIndex = {};
 
-    $.getJSON("http://opendata.cbs.nl/ODataApi/odata/80518ENG/Countries", function (data) {
+    $.getJSON("TempJSON/Countries.json", function (data) {
 
         $.each(data.value, function (index, country) {
 
@@ -126,7 +126,7 @@ function geTopicIndex() {
 
     var topicIndex = {};
 
-    $.getJSON("https://opendata.cbs.nl/ODataApi/odata/80518ENG/DataProperties", function (data) {
+    $.getJSON("TempJSON/DataProperties.json", function (data) {
 
         $.each(data.value, function (index, topic) {
 

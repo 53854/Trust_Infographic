@@ -7,13 +7,8 @@ var currentCountry = "L008691";
 var currentTopic = "OtherPeople_1";
 
 function getUserCountry(action) {
-<<<<<<< HEAD
-
-    $.getJSON('https://ipapi.co/json?callback=?', function (data) {
-=======
     
-    $.getJSON("https://ipapi.co/8.8.8.8/json?callback=?", function (data) {
->>>>>>> 91b4fc3332bc5369c064422ef0789bf40718425b
+    $.getJSON("https://ipapi.co/json/?callback=?", function (data) {
         var location = JSON.parse(JSON.stringify(data));
 
         userCountry = getCompareCountry(location.country);

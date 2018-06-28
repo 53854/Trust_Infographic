@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="js/startUp.js"></script>
+    <script src="js/setUpData.js"></script>
+    <script src="js/useData.js"></script>
+    <script src="js/devButtons.js"></script>
+    <script src="js/userCountryDetection.js"></script>
+    <script src="js/trustOverTime.js"></script>
+    <script src="js/welcomeScreen.js"></script>
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <title>Trust infographic</title>
+</head>
+
+<body>
+
+    <div id="devButtons" class="devButtons">
+        <button id="logDataSetBtn" class="devButtons"> Log entireDataSet</button>
+        <button id="logDataProperties" class="devButtons"> Log data properties</button>
+        <button id="logCountryInfoBtn" class="devButtons"> Log country information</button>
+        <button id="logPersonalCharbtn" class="devButtons"> Log characteristics info</button>
+        <button id="logCategoriesBtn" class="devButtons"> Log categories info</button>
+        <button id="logSortedTopicsBtn" class="devButtons"> Log sorted topics</button>
+        <button id="logSortedDataBtn" class="devButtons"> Log new sorted dataset</button>
+
+    </div>
+
+    <div id="toggleDiv">
+        <button id="toggleDevStuffBtn" class="devButtons">toggle Dev Stuff</button>
+    </div>
+
+    <div class="quickFact loading ">
+        loading...
+    </div>
+
+    <div class="quickFact " id="startScreen" style="display: none;">
+        <h1>Do you trust this infographic?</h1>
+        <button id="trustMeBtn" class="inputButtons">YES</button>
+    </div>
+
+
+    <div class="content" style="display: none;">
+
+        <div class="quickFact " id="welcome" style="display: none;">
+
+            <h1>How much do YOU trust other people?</h1>
+
+            <input type="range" min="1" max="100" value="50" class="trustSlider" id="userTrustSilderWelcome">
+
+            <p>
+                <span id="userTrustInput"></span>
+            </p>
+
+            <button id="userBaitBTN" class="inputButtons">Why?</button>
+        </div>
+
+        <div class="quickFact " id="compareToYourCountry" style="display: none">
+
+            <button id="redoBtn" class="inputButtons" onclick="thinkAgainCompare();">THINK AGAIN?</button>
+
+            <div class="selection" id="compareCountrySelection">
+                <button class="selectionBtn" id="switchCompareCountrybtn">COMPARE WITH</button>
+                <div class="selectionList" id="compareCountryList">
+                </div>
+            </div>
+
+            <p id="compareBaitIntro">That is </p>
+            <div class="shockText" id="comapareShockText">
+
+                <h1 id="differencePerCent"></h1>
+
+            </div>
+            <p id="comapreBaitTetxt"></p>
+
+            <svg id="welcomeCompareBar" width="60vw" height="20vh">
+                <g class="bar userOriginBar">
+                    <rect x="10%" y="50" width="0" height="5vh" style="fill:#dadada"></rect>
+                    <text class="name" x="9%" y="80" textLength="9%" text-anchor="end" style="fill:#dadada;">OTHERS:</text>
+                </g>
+                <g class="bar userInputBar">
+                    <rect x="10%" y="100" width="0" height="5vh" style="fill:#dadada"></rect>
+                    <text class="name" x="9%" y="130" text-anchor="end" style=" fill:#dadada;">YOU</text>
+                </g>
+                <g class="compareScoreTextGrp">
+                    <text id="originScore" x="0" y="80"></text>
+                    <text id="userScore" x="0" y="130"></text>
+                </g>
+            </svg>
+
+            <br>
+
+            <button id="userHookBtn" class="inputButtons" onclick="showMoreInfo();">Curious?</button>
+
+        </div>
+
+        <div class="quickFact" id="moreStats" style="display: none;">
+
+            <div class="selection" id="trustCountrySelection">
+                <button class="selectionBtn" id="switchInfoCountrybtn">See other countries</button>
+                <div class="selectionList" id="trustCountryList">
+                </div>
+            </div>
+
+            <div class="selection" id="topicSelection">
+                <button class="selectionBtn" id="switchTopicbtn">What else do people trust?</button>
+                <div class="selectionList" id="trustTopicList">
+                </div>
+            </div>
+
+
+            <p id="timeIntroText">Trust in something can change over the years</p>
+
+            <p id="timeTopicText">How much do people in the netherlands trust others on average?</p>
+
+            <div id="overTimeData" style="display: none;">
+                <table id="timeTable">
+                    <tr>
+                        <th>Year</th>
+                        <th>Average</th>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div id="overTimeGraph">
+                <svg id="overTimeCollums" width="50vw" height="50vh">
+                    <g class="bar y2002">
+                        <rect x="10%" y="50" width="10%" height="5vh" style="fill:#dadada"></rect>
+                        <text class="year" x="9%" y="80" textLength="9%" text-anchor="end" style="fill:#dadada;">OTHERS:</text>
+                    </g>
+                    <g class="bar y2004">
+                        <rect x="10%" y="100" width="10%" height="5vh" style="fill:#dadada"></rect>
+                        <text class="year" x="9%" y="130" textLength="9%" text-anchor="end" style="fill:#dadada;">OTHERS:</text>
+                    </g>
+                    <g class="bar y2006">
+                        <rect x="10%" y="150" width="10%" height="5vh" style="fill:#dadada"></rect>
+                        <text class="year" x="9%" y="180" textLength="9%" text-anchor="end" style="fill:#dadada;">OTHERS:</text>
+                    </g>
+                    <g class="bar y2008">
+                        <rect x="10%" y="200" width="10%" height="5vh" style="fill:#dadada"></rect>
+                        <text class="year" x="9%" y="230" textLength="9%" text-anchor="end" style="fill:#dadada;">OTHERS:</text>
+                    </g>
+                    <g class="bar y2010">
+                        <rect x="10%" y="250" width="10%" height="5vh" style="fill:#dadada"></rect>
+                        <text class="year" x="9%" y="280" textLength="9%" text-anchor="end" style="fill:#dadada;">OTHERS:</text>
+                    </g>
+                    <g class="bar y2012">
+                        <rect x="10%" y="300" width="10%" height="5vh" style="fill:#dadada"></rect>
+                        <text class="year" x="9%" y="330" textLength="9%" text-anchor="end" style="fill:#dadada;">OTHERS:</text>
+                    </g>
+                    <g class="bar y2014">
+                        <rect x="10%" y="350" width="10%" height="5vh" style="fill:#dadada"></rect>
+                        <text class="year" x="9%" y="380" textLength="9%" text-anchor="end" style="fill:#dadada;">OTHERS:</text>
+                    </g>
+                    <g class="infoTextGrp">
+                        <text id="text2002" x="0" y="80"></text>
+                        <text id="text2004" x="0" y="130"></text>
+                        <text id="text2006" x="0" y="180"></text>
+                        <text id="text2008" x="0" y="230"></text>
+                        <text id="text2010" x="0" y="280"></text>
+                        <text id="text2012" x="0" y="330"></text>
+                        <text id="text2014" x="0" y="380"></text>
+                    </g>
+                </svg>
+            </div>
+
+            <p id="switchGraphsText">Dislike the way this looks?</p>
+            <button class="switchGraphs" id="switchTopicbtn" onclick="switchGraphs();">Change it</button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

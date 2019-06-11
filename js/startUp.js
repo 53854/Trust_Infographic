@@ -34,5 +34,5 @@ function getData(url, _callback1){
 function doneloading(){
     $(".loading").css("display", "none");
     $("#startScreen").css("display", "block");
-    console.log(overview);
+    console.log(overView);
 }
